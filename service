@@ -10,7 +10,7 @@ case "$1" in
         nohup java -jar target/pkm.jar --spring.config.location=conf/application.properties $2 &
         ;;
     run)
-        java -jar target/pkm.jar --spring.config.location=conf/application.properties $2 &
+        java -jar target/pkm.jar --spring.config.location=conf/application.properties $2 
         ;;
     ls)
         ps aux|grep pkm
